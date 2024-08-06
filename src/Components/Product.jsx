@@ -6,7 +6,7 @@ import img10 from "../images/product-3.png"
 
 const PopularProducts = () => {
     return (
-        <div className="popular-product">
+        <div className="popular-product" id='product'>
             <div className="container">
                 <div className="row">
 

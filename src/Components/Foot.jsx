@@ -6,16 +6,16 @@ import img12 from "../images/sofa.png"
 
 const Foot = () => {
     return (
-        <footer className="footer-section">
+        <footer className="footer-section" id='footer'>
             <div className="container relative">
 
-                <div className="sofa-img">
-                    <img src={img12}alt="Image" className="img-fluid" />
+                <div className="sofa-img mt-5">
+                    <img src={img12}alt="Image" className="img-fluid mt-5 pt-5" />
                 </div>
 
                 <div className="row">
                     <div className="col-lg-8">
-                        <div className="subscription-form">
+                        <div className="subscription-form mt-5">
                             <h3 className="d-flex align-items-center"><span className="me-1"><img src={svg7} alt="Image" className="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
 
                             <form action="#" className="row g-3">
@@ -37,7 +37,7 @@ const Foot = () => {
                 </div>
 
                 <div className="row g-5 mb-5">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 mt-5 pt-5">
                         <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">Brand<span>.</span></a></div>
                         <p className="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
 
@@ -49,8 +49,8 @@ const Foot = () => {
                         </ul>
                     </div>
 
-                    <div className="col-lg-8">
-                        <div className="row links-wrap">
+                    <div className="col-lg-8 mt-5 pt-5">
+                        <div className="row links-wrap mt-5">
                             <div className="col-6 col-sm-6 col-md-3">
                                 <ul className="list-unstyled">
                                     <li><a href="#">About us</a></li>

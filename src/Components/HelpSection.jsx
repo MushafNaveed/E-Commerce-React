@@ -6,7 +6,7 @@ import img7 from "../images/img-grid-3.jpg"
 
 export default function About() {
     return (
-        <div className="we-help-section">
+        <div className="we-help-section" id='help'>
           <div className="container">
             <div className="row justify-content-between">
               <div className="col-lg-7 mb-5 mb-lg-0">

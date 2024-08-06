@@ -8,7 +8,7 @@ import img2 from '../images/why-choose-us-img.jpg';
 
 export default function About() {
   return (
-    <section id="About">
+    <section id="about">
       <div className="container my-5">
         <div className="row my-5">
           <div className="col-md-6">
@@ -67,7 +67,7 @@ export default function About() {
                 </div>
             </div>
           </div>
-          <div className="col-md-6 my-5">
+          <div className="col-md-6 my-5 px-5">
             <div className="img-wrap my-5">
                 <img src={img2} className="img-fluid" />
             </div>
@@ -77,3 +77,15 @@ export default function About() {
     </section>
   );
 }
+
+
+// Late reply
+// apni zindagi ke phadon main dosre per bhoj na dalo
+// Azmaish or musibat
+// phone lena
+// insan ko sehat or dolat per gurror nahi karna chahiye
+// namaz qulit
+// guunah ke bad feel
+// haq ka nikalna
+// note mangne valo ko
+// medicine azmaish afsos or dhukh

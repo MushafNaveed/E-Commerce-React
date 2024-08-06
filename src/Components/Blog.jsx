@@ -6,7 +6,7 @@ import img13 from "../images/post-3.jpg"
 
 const BlogSection = () => {
     return (
-        <div className="blog-section">
+        <div className="blog-section" id='blog'>
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-md-6">
